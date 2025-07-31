@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/tasks")
+//CORS Error due to browser inconcistency, works on some tabs and not on others, being addressed
 @CrossOrigin(origins = "http://localhost:8080")
 public class TaskController {
     
