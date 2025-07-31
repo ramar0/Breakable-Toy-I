@@ -26,7 +26,7 @@ public class TaskController {
                                     @RequestParam(required = false) String search,
                                     @RequestParam(required = false) String sortBy,
                                     @RequestParam(defaultValue = "0") int page,
-                                    @RequestParam(defaultValue = "5") int size) {
+                                    @RequestParam(defaultValue = "10") int size) {
 
         if(status != null && (status.isEmpty() || status.equals("ALL"))){
             status = null;

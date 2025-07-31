@@ -13,7 +13,7 @@ const App: React.FC = () => {
   const [filterTask, setFilterTask] = useState('');
   const [sortBy, setSort] = useState('deadline');
   const [page, setPage] = useState(0);
-  const [size] = useState(5);
+  const [size] = useState(10);
   const [totalAvg, setAvg] = useState(0);
   const [highAvg, setHighAvg] = useState(0);
   const [mediumAvg, setMediumAvg] = useState(0);
